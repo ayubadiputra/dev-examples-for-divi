@@ -4,7 +4,7 @@ Dev Examples for Divi is a WordPress plugin that provides code examples demonstr
 
 ## Installation and Requirement
 
-After cloning the repository, activate the plugin. To enable certain examples, please check "Examples" section for more details.
+After cloning the repository, run `composer install`. To enable certain examples, please check "Examples" section for more details.
 
 Dev Examples for Divi plugin's minimum requirements are WordPress 6.6 and PHP 7.2.
 

@@ -1,0 +1,13 @@
+{
+    "name": "ded/dev-examples-for-divi",
+    "description": "Dev Examples for Divi is a WordPress plugin that provides code examples demonstrating how to use the Divi Builder API in third-party extensions. It is designed for demonstration, testing, and learning purposes.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "DED\\": "includes/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
