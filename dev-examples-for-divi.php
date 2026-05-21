@@ -21,3 +21,11 @@ if ( ! defined( 'DED_DEV_EXAMPLES_FOR_DIVI_FILE' ) ) {
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	require_once __DIR__ . '/vendor/autoload.php';
 }
+
+if ( class_exists( \DED\HeadingModuleDefaultAttributes::class ) ) {
+	\DED\HeadingModuleDefaultAttributes::init();
+}
+
+if ( class_exists( \DED\HeadingModuleStyleAttrs::class ) ) {
+	\DED\HeadingModuleStyleAttrs::init();
+}
